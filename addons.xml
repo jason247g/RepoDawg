@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-<addon id="plugin.program.DawgWizard" name="Dawg Wizard" version="4.20" provider-name="Dawgfather">
+<addon id="plugin.program.DawgWizard" name="DawgWizard" version="4.20" provider-name="Dawgfather">
     <extension point="xbmc.addon.metadata">
         <summary>Dawg Wizard</summary>
         <description>Dawg Wizard add-on.</description>
@@ -22,3 +22,4 @@
     </extension>
 </addon>
 </addons>
+
