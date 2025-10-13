@@ -1,0 +1,13 @@
+<addon id="repository.repo.dawg.github.io" name="Repo.Dawg.GitHub.io" version="1.0.0" provider-name="Dawgfather">
+    <extension point="xbmc.addon.repository" name="Repo.Dawg.GitHub.io">
+        <info compressed="false">https://repo.dawg.github.io/addons.xml</info>
+        <checksum>https://repo.dawg.github.io/addons.xml.md5</checksum>
+        <datadir zip="true">https://repo.dawg.github.io/addons/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Dawgfather’s Kodi Repository</summary>
+        <description>The official Dawgfather repository for Kodi add-ons.</description>
+        <platform>all</platform>
+        <language>en</language>
+    </extension>
+</addon>
