@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-<addon id="plugin.program.DawgWizard" name="Dawg Wizard" version="1.0.0" provider-name="Dawgfather">
+<addon id="plugin.program.DawgWizard" name="Dawg Wizard" version="4.20" provider-name="Dawgfather">
     <extension point="xbmc.addon.metadata">
         <summary>Dawg Wizard placeholder</summary>
         <description>This is a placeholder for the Dawg Wizard add-on.</description>
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="script.module.dbview" name="DB View Module" version="1.0.0" provider-name="Dawgfather">
+<addon id="script.module.dbview" name="DB View Module" version="1.0.3" provider-name="Dawgfather">
     <extension point="xbmc.addon.metadata">
         <summary>DB View module placeholder</summary>
         <description>This is a placeholder for the DB View module.</description>
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="script.module.debridmgr" name="Debrid Manager" version="1.0.0" provider-name="Dawgfather">
+<addon id="script.module.debridmgr" name="Debrid Manager" version="1.0.4" provider-name="Dawgfather">
     <extension point="xbmc.addon.metadata">
         <summary>Debrid Manager placeholder</summary>
         <description>This is a placeholder for the Debrid Manager module.</description>
