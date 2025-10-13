@@ -3,8 +3,8 @@
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/jason247g/repo.Dawg.github.io/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jason247g/repo.Dawg.githu.io/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jason247g/jason247g/master/repo/zips/</datadir>
+            <checksum>https://raw.githubusercontent.com/jason247g/repo.Dawg.github.io/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jason247g/repo.Dawg.github.io/master/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
