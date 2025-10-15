@@ -1,25 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-<addon id="plugin.program.DawgWizard" name="DawgWizard" version="4.20" provider-name="Dawgfather">
+<addon id="plugin.program.DawgWizard" name="[B][COLOR red]Dawg[COLOR snow]Wizard [/COLOR][/B]" version="4.20" provider-name="J-Dawg">
     <extension point="xbmc.addon.metadata">
-        <summary>Dawg Wizard</summary>
-        <description>Dawg Wizard add-on.</description>
+        <summary>[B][COLOR red]Dawg[COLOR snow]Wizard [/COLOR][/B]</summary>
+        <description>[B][COLOR red]Dawg[COLOR snow]Wizard [/COLOR][/B] add-on.</description>
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="script.module.dbview" name="DB View Module" version="1.0.3" provider-name="Dawgfather">
+<addon id="script.module.dbview" name="dbviewer" version="1.0.3" provider-name="Zaxxon709">
     <extension point="xbmc.addon.metadata">
-        <summary>DB View Module</summary>
-        <description>DB View Module add-on.</description>
+        <summary>dbviewer</summary>
+        <description>dbviewer add-on.</description>
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="script.module.debridmgr" name="Debrid Manager" version="1.0.4" provider-name="Dawgfather">
+<addon id="script.module.debridmgr" name="Debrid Manager" version="1.0.4" provider-name="Zaxxon709">
     <extension point="xbmc.addon.metadata">
         <summary>Debrid Manager</summary>
-        <description>Debrid Manager module.</description>
+        <description>Debrid Manager add-on.</description>
         <platform>all</platform>
     </extension>
 </addon>
 </addons>
-

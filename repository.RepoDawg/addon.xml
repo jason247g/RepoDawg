@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.RepoDawg" name="RepoDawg" version="1.0.4" provider-name="Dawgfather">
-    <extension point="xbmc.addon.repository" name="RepoDawg">
-        <info compressed="false">https://raw.githubusercontent.com/jason247g/RepoDawg/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/jason247g/RepoDawg/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/jason247g/RepoDawg/master/addons/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Dawgfather’s Kodi Repository</summary>
-        <description>The official Dawgfather repository for Kodi add-ons.</description>
-        <platform>all</platform>
-        <language>en</language>
-    </extension>
+<addon id="repository.RepoDawg" name="RepoDawg" version="1.0.6" provider-name="Dawgfather">
+  <extension point="xbmc.addon.repository" name="RepoDawg">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/jason247g/RepoDawg/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/jason247g/RepoDawg/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/jason247g/RepoDawg/master/addons/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Dawgfather’s Kodi Repository</summary>
+    <description>The official Dawgfather repository for Kodi add-ons.</description>
+    <platform>all</platform>
+    <language>en</language>
+  </extension>
 </addon>
