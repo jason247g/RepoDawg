@@ -29,7 +29,7 @@
       </assets>
     </extension>
   </addon>
-  <addon id="repository.repodawg" name="RepoDawg Repository" version="1.0.13" provider-name="RepoDawg">
+  <addon id="repository.repodawg" name="RepoDawg Repository" version="1.0.14" provider-name="RepoDawg">
     <extension point="xbmc.addon.repository" name="RepoDawg">
       <info compressed="false">https://raw.githubusercontent.com/jason247g/RepoDawg/master/zips/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/jason247g/RepoDawg/master/zips/addons.xml.md5</checksum>
@@ -74,20 +74,6 @@
         <icon>icon.png</icon>
         <fanart>fanart.png</fanart>
       </assets>
-    </extension>
-  </addon>
-  <addon id="repository.cocoscrapers" name="CocoScrapers Repository" version="1.0.1" provider-name="CocoScrapers">
-    <extension point="xbmc.addon.repository" name="CocoScrapers Repository">
-      <dir minversion="19.0">
-        <info compressed="false">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/</datadir>
-      </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <platform>all</platform>
-      <summary>CocoScrapers Repository</summary>
-      <description>Unofficial add-ons repository</description>
     </extension>
   </addon>
 </addons>
