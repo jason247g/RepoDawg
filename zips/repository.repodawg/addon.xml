@@ -1,4 +1,4 @@
-<addon id="repository.repodawg" name="RepoDawg Repository" version="1.0.17" provider-name="RepoDawg">
+<addon id="repository.repodawg" name="RepoDawg Repository" version="1.0.19" provider-name="RepoDawg">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
   </requires>
