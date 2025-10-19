@@ -1,0 +1,15 @@
+<addon id="repository.repodawg" name="RepoDawg Repository" version="1.0.21" provider-name="RepoDawg">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.addon.repository" name="RepoDawg">
+    <info compressed="false">https://jason247g.github.io/RepoDawg/repo/addons.xml</info>
+    <checksum>https://jason247g.github.io/RepoDawg/repo/addons.xml.md5</checksum>
+    <datadir zip="true">https://jason247g.github.io/RepoDawg/repo/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>RepoDawg</summary>
+    <description>RepoDawg add-on repository</description>
+    <platform>all</platform>
+  </extension>
+</addon>
