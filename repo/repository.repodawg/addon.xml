@@ -1,4 +1,3 @@
-<addons>
 <addon id="repository.repodawg" name="RepoDawg Repository" version="1.0.20" provider-name="RepoDawg">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -14,4 +13,3 @@
     <platform>all</platform>
   </extension>
 </addon>
-</addons>
