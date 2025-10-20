@@ -1,6 +1,6 @@
-<addon id="repository.repodawg" name="RepoDawg Repository" version="1.0.23" provider-name="RepoDawg">
+﻿<addon id="repository.repodawg" name="RepoDawg Repository" version="1.0.23" provider-name="RepoDawg">
   <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="xbmc.python" version="1.0.23"/>
   </requires>
   <extension point="xbmc.addon.repository" name="RepoDawg">
     <info compressed="false">https://jason247g.github.io/RepoDawg/zips/addons.xml</info>
