@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+  <!-- Repo itself -->
+  <addon id="repository.repodawg" name="RepoDawg Repository" version="1.0.24" provider-name="RepoDawg">
+    <extension point="xbmc.addon.repository" name="RepoDawg">
+      <info compressed="false">https://jason247g.github.io/RepoDawg/zips/addons.xml</info>
+      <checksum>https://jason247g.github.io/RepoDawg/zips/addons.xml.md5</checksum>
+      <datadir zip="true">https://jason247g.github.io/RepoDawg/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>RepoDawg</summary>
+      <description>RepoDawg add-on repository</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+
+  <!-- Dawg Wizard (v4.20) -->
+  <addon id="plugin.program.dawgwizard" name="[B][COLOR red]Dawg[COLOR snow]Wizard [/COLOR][/B]" version="4.20" provider-name="RepoDawg">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.metadata">
+      <summary>Dawg Wizard</summary>
+      <description>Maintenance and setup wizard.</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+
+  <!-- script.module.debridmgr (v1.0.4) -->
+  <addon id="script.module.debridmgr" name="script.module.debridmgr" version="1.0.4" provider-name="RepoDawg">
+    <extension point="xbmc.addon.metadata">
+      <summary>Debrid Manager module</summary>
+      <description>Shared module for Debrid Manager functionality.</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+
+  <!-- script.module.dbview (v1.0.3) -->
+  <addon id="script.module.dbview" name="script.module.dbview" version="1.0.3" provider-name="RepoDawg">
+    <extension point="xbmc.addon.metadata">
+      <summary>DBView module</summary>
+      <description>Shared module for database viewing helpers.</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+</addons>
