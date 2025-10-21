@@ -1,46 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <addons>
-  <!-- Repo itself -->
-  <addon id="repository.repodawg" name="RepoDawg Repository" version="1.0.24" provider-name="RepoDawg">
-    <extension point="xbmc.addon.repository" name="RepoDawg">
-      <info compressed="false">https://jason247g.github.io/RepoDawg/zips/addons.xml</info>
-      <checksum>https://jason247g.github.io/RepoDawg/zips/addons.xml.md5</checksum>
-      <datadir zip="true">https://jason247g.github.io/RepoDawg/zips/</datadir>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><addon id="plugin.program.dawgwizard" name="[B][COLOR red]Dawg[COLOR snow]Wizard [/COLOR][/B]" version="4.20" provider-name="J-Dawg"><requires><import addon="xbmc.python" version="3.0.0" /><import addon="script.module.debridmgr" /></requires><extension point="xbmc.python.pluginsource" library="addon.py"><provides>executable</provides></extension><extension point="xbmc.python.script" library="addon.py" /><extension point="xbmc.addon.metadata"><summary lang="en_GB">Dawg Wizard for updating Dawg build in Kodi</summary><description lang="en_GB">Dawg Wizard</description><disclaimer lang="en_GB">Them Dawgs is Hell</disclaimer><language>en</language><platform>all</platform><license>GPL-2.0-or-later</license><forum></forum><website></website><email></email><source></source><news></news><assets><icon>resources/icon.png</icon><fanart>resources/fanart.jpg</fanart><banner></banner><clearlogo></clearlogo><screenshot></screenshot></assets></extension></addon>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.dbview" name="dbviewer" version="1.0.3" provider-name="Zaxxon709">
+    <extension point="xbmc.python.pluginsource" library="default.py">
     </extension>
+    <extension point="xbmc.python.module" library="resources" />
     <extension point="xbmc.addon.metadata">
-      <summary>RepoDawg</summary>
-      <description>RepoDawg add-on repository</description>
-      <platform>all</platform>
+        <summary lang="en">View Authorized Accounts</summary>
+        <description lang="en">Debrid Manager Dependency</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://</source>
     </extension>
-  </addon>
-
-  <!-- Dawg Wizard (v4.20) -->
-  <addon id="plugin.program.dawgwizard" name="[B][COLOR red]Dawg[COLOR snow]Wizard [/COLOR][/B]" version="4.20" provider-name="RepoDawg">
-    <requires>
-      <import addon="xbmc.python" version="3.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.metadata">
-      <summary>Dawg Wizard</summary>
-      <description>Maintenance and setup wizard.</description>
-      <platform>all</platform>
-    </extension>
-  </addon>
-
-  <!-- script.module.debridmgr (v1.0.4) -->
-  <addon id="script.module.debridmgr" name="script.module.debridmgr" version="1.0.4" provider-name="RepoDawg">
-    <extension point="xbmc.addon.metadata">
-      <summary>Debrid Manager module</summary>
-      <description>Shared module for Debrid Manager functionality.</description>
-      <platform>all</platform>
-    </extension>
-  </addon>
-
-  <!-- script.module.dbview (v1.0.3) -->
-  <addon id="script.module.dbview" name="script.module.dbview" version="1.0.3" provider-name="RepoDawg">
-    <extension point="xbmc.addon.metadata">
-      <summary>DBView module</summary>
-      <description>Shared module for database viewing helpers.</description>
-      <platform>all</platform>
-    </extension>
-  </addon>
+</addon>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.debridmgr" version="1.0.4" name="Debrid Manager" provider-name="Zaxxon709">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" version="2.19.1" />
+            	<import addon="script.module.dbview" version="1.0.3" />
+	</requires>
+	<extension point="xbmc.service" library="lib/startup.py" start="startup" />
+	<extension point="xbmc.python.script" library="lib/default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>false</reuselanguageinvoker>
+		<summary lang="en">Debrid Manager</summary>
+		<description>Manage your Debrid logins</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<disclaimer lang="en">The author is not responsible for the use of this addon. [CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.png</fanart>
+		</assets>
+	</extension>
+</addon>
 </addons>
