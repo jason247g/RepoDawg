@@ -1,0 +1,27 @@
+{
+    "favourites.xml": {
+        "name": "Favourites",
+        "setting": "savefavs",
+        "path": "user_path"
+    },
+    "weather.openmeteo": {
+        "name": "Weather-Open Meteo",
+        "setting": "savedata",
+        "path": "data_path"
+    },
+    "weather.gismeteo": {
+        "name": "Weather-Gismeteo",
+        "setting": "savedata",
+        "path": "data_path"
+    },
+    "script.module.myaccounts": {
+        "name": "My Accounts",
+        "setting": "savedata",
+        "path": "data_path"
+    },
+    "plugin.video.youtube": {
+        "name": "YouTube",
+        "setting": "saveyoutube",
+        "path": "data_path"
+    }
+}
