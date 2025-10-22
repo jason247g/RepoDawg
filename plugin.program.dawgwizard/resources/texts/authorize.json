@@ -1,0 +1,113 @@
+{
+    "Step 1- Install The Supported Addons You Use Here": {
+        "icon": "https://kodiapps.com/sharex/dllhost_2020-02-05_12-07-32.jpg",
+        "items": [
+            {
+                "name": "Install FEN Light (DEBRID ONLY)",
+                "url": "installaddon(plugin.video.fenlight)"
+            },			
+            {
+                "name": "Install Seren (DEBRID ONLY)",
+                "url": "installaddon(plugin.video.seren)"
+            },
+            {
+                "name": "Install Umbrella (DEBRID ONLY)",
+                "url": "installaddon(plugin.video.umbrella)"
+            },
+            {
+                "name": "Install POV (DEBRID ONLY)",
+                "url": "installaddon(plugin.video.pov)"
+            },
+            {
+                "name": "Install The Coalition (DEBRID ONLY)",
+                "url": "installaddon(plugin.video.coalition)"
+            },
+            {
+                "name": "Install Fen (FREE AND DEBRID)",
+                "url": "installaddon(plugin.video.fen)"
+            },						
+            {
+                "name": "Install The Crew (FREE AND DEBRID)",
+                "url": "installaddon(plugin.video.thecrew)"
+            },
+            {
+                "name": "Install Elementum (Free Torrents- VPN Required!!)",
+                "url": "installaddon(plugin.video.elementum)"
+            }			
+        ]
+    },
+    "Step 2- Debrid Logins": {
+        "icon": "https://kodiapps.com/sharex/dllhost_2020-02-05_12-07-32.jpg",
+        "items": [
+            {
+                "name": "[COLOR blue]Authenticate Debrid With Debrid Manager[/COLOR]",
+                "url": "Addon.Opensettings(script.module.debridmgr)"
+            }
+        ]
+    },
+    "Step 3- Authorize Trakt": {
+        "icon": "https://techwiser.com/wp-content/uploads/2020/09/trakt-logo.png",
+        "items": [
+			{
+                "name": "<><> [COLOR blue][B]Authorize The Addons You Use Here..[/B][/COLOR] <><>",
+                "url": ""
+            },
+            {
+                "name": "Authorize TMDBH Trakt",
+                "url": "RunScript(plugin.video.themoviedb.helper,authenticate_trakt)"
+            },
+            {
+                "name": "Authorize FEN Light Trakt",
+                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=trakt.trakt_authenticate)"
+            },
+            {
+                "name": "Authorize Umbrella Trakt",
+                "url": "RunPlugin(plugin://plugin.video.umbrella/?action=traktAuth)"
+            },
+            {
+                "name": "Authorize POV Trakt",
+                "url": "RunPlugin(plugin://plugin.video.pov/?mode=trakt.get_auth)"
+            },
+            {
+                "name": "Authorize Seren Trakt",
+                "url": "RunPlugin(plugin://plugin.video.seren/?action=authTrakt)"
+            },
+            {
+                "name": "Authorize FEN Trakt",
+                "url": "RunPlugin(plugin://plugin.video.fen/?mode=trakt.trakt_authenticate)"
+            },
+            {
+                "name": "Authorize Coalition Trakt",
+                "url": "RunPlugin(plugin://plugin.video.coalition/?mode=trakt.trakt_auth)"
+            },
+            {
+                "name": "Authorize Chain Reaction Trakt",
+                "url": "RunPlugin(plugin://plugin.video.thechains?mode=205&url=www)"
+            },
+            {
+                "name": "Authorize Asgard Trakt",
+                "url": "RunPlugin(plugin://plugin.video.asgard?mode=157&url=False)"
+            },
+            {
+                "name": "Authorize The Crew Trakt",
+                "url": "RunPlugin(plugin://plugin.video.thecrew/?action=authTrakt)"
+            },
+            {
+                "name": "Authorize Homelander Trakt",
+                "url": "RunPlugin(plugin://plugin.video.homelander/?action=authTrakt)"
+            },
+            {
+                "name": "Authorize Scrubs Trakt",
+                "url": "RunPlugin(plugin://plugin.video.scrubsv2/?action=auth_trakt)"
+            },
+			{
+                "name": "Authorize Black Lightning Trakt",
+                "url": "RunPlugin(plugin://plugin.video.blacklightning?mode=157&url=False)"
+            },
+			{
+                "name": "Authorize Kodi Library Trakt Addon",
+                "url": "RunScript(script.trakt,action=auth_info)"
+            }
+        ]
+    }
+}
