@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.program.dawgwizard"
        name="[B][COLOR red]Dawg[COLOR snow]Wizard [/COLOR][/B]"
        version="4.20"
@@ -28,7 +27,6 @@
   </extension>
 
 </addon>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.repodawg"
        name="RepoDawg Repository"
        version="1.0.24"
