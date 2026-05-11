@@ -14,8 +14,13 @@
         "setting": "savedata",
         "path": "data_path"
     },
-    "script.module.myaccounts": {
-        "name": "My Accounts",
+    "weather.multi": {
+        "name": "Weather-MultiWeather",
+        "setting": "savedata",
+        "path": "data_path"
+    },
+    "script.module.accountmgr": {
+        "name": "Account Manager",
         "setting": "savedata",
         "path": "data_path"
     },
