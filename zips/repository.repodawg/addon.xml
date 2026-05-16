@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.repodawg"
-       name="RepoDawg Repository"
-       version="1.0.24"
-       provider-name="RepoDawg">
-
+<addon id="repository.repodawg" name="RepoDawg" version="1.0.25" provider-name="jason247g">
   <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="xbmc.addon" version="21.0.0"/>
   </requires>
-
   <extension point="xbmc.addon.repository" name="RepoDawg">
     <dir>
-      <info compressed="false">https://jason247g.github.io/RepoDawg/zips/addons.xml</info>
+      <info>https://jason247g.github.io/RepoDawg/zips/addons.xml</info>
       <checksum>https://jason247g.github.io/RepoDawg/zips/addons.xml.md5</checksum>
-      <datadir zip="true">https://jason247g.github.io/RepoDawg/zips/</datadir>
+      <datadir>https://jason247g.github.io/RepoDawg/zips/</datadir>
+      <artdir>https://jason247g.github.io/RepoDawg/zips/</artdir>
     </dir>
   </extension>
-
   <extension point="xbmc.addon.metadata">
-    <summary>RepoDawg Repository</summary>
-    <description>Custom RepoDawg add-on repository</description>
+    <summary lang="en_GB">RepoDawg Repository</summary>
+    <description lang="en_GB">RepoDawg add-on repository for Dawg Wizard and more</description>
     <platform>all</platform>
   </extension>
-
 </addon>
-
