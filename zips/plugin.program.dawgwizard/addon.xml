@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.program.dawgwizard" name="[B][COLOR red]Dawg[COLOR snow]Wizard [/COLOR][/B]" version="4.21" provider-name="J-Dawg">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -22,4 +21,3 @@
         </assets>
     </extension>
 </addon>
-</addons>
