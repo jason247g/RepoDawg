@@ -9,8 +9,7 @@
     <datadir zip="true">https://jason247g.github.io/RepoDawg/zips/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">RepoDawg Repository</summary>
-    <description lang="en_GB">RepoDawg add-on repository for Dawg Wizard and more</description>
-    <platform>all</platform>
+    <summary lang="en">RepoDawg Repository</summary>
+    <description lang="en">RepoDawg Repository for Dawg Wizard and builds</description>
   </extension>
 </addon>

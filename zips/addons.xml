@@ -1,21 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <addons>
-  <addon id="repository.repodawg" name="RepoDawg Repository" version="1.0.26" provider-name="RepoDawg">
+  <addon id="repository.repodawg" version="1.0.26" name="RepoDawg Repository" provider-name="Dawg">
     <requires>
       <import addon="xbmc.addon" version="17.0"/>
     </requires>
-    <extension point="xbmc.addon.repository" name="RepoDawg Repository">
-      <info compressed="false">https://jason247g.github.io/RepoDawg/zips/addons.xml</info>
-      <checksum>https://jason247g.github.io/RepoDawg/zips/addons.xml.md5</checksum>
-      <datadir zip="true">https://jason247g.github.io/RepoDawg/zips/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <summary>RepoDawg Repository</summary>
-      <description>Custom RepoDawg add-on repository</description>
-      <platform>all</platform>
-    </extension>
+    <info compressed="false">https://jason247g.github.io/RepoDawg/zips/addons.xml</info>
+    <checksum>https://jason247g.github.io/RepoDawg/zips/addons.xml.md5</checksum>
+    <datadir zip="true">https://jason247g.github.io/RepoDawg/zips/</datadir>
   </addon>
-  <addon id="plugin.program.dawgwizard" name="[B][COLOR red]Dawg[COLOR snow]Wizard [/COLOR][/B]" version="4.21" provider-name="J-Dawg">
+  <addon id="plugin.program.dawgwizard" version="4.21" name="[B][COLOR red]Dawg[COLOR snow]Wizard [/COLOR][/B]" provider-name="J-Dawg">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
     </requires>
